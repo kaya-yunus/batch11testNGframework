@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="running package">
+
+    <test name="Regression1">
+            <groups>
+              <run>
+                <exclude name="grup2"  />
+                  <include name="grup1"  />
+              </run>
+            </groups>
+
+    <packages>
+        <package name="com.techproed.tests"></package>
+    </packages>
+
+   </test>
+
+</suite>

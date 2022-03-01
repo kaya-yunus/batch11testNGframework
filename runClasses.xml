@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="birden fazla class calistirma">
+    <test name="ikinci test">
+        <classes>
+            <class name="Day12_Alert"></class>
+            <class name="Day11_SoftAssert"></class>
+            <class name="PozitifTest"></class>
+            
+        </classes>
+    </test>
+</suite>
