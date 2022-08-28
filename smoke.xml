@@ -10,9 +10,6 @@
         </groups>
         <classes>
             <class name="com.techproed.smokeTest.JenkinsDeneme">
-
-
-
             </class>
         </classes>
     </test>
